@@ -79,6 +79,22 @@ section {
     border-radius: 12px;
 }
 
+/* HERO BANNER */
+.hero-banner {
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.hero-banner img {
+    width: 100%;
+    max-width: none;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+
 /* 8. HEADINGS */
 h1, h2, h3 {
     color: var(--deep-ocean);
@@ -91,4 +107,107 @@ footer {
     color: var(--white);
     text-align: center;
     padding: 15px;
+}
+
+/* WELCOME SECTION */
+.welcome {
+    background-color: var(--seafoam);
+    text-align: center;
+    padding: 50px 30px;
+    margin-top: 25px;
+}
+
+.welcome h2 {
+    color: var(--deep-ocean);
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.welcome p {
+    max-width: 750px;
+    margin: 0 auto;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+/* WHY VISIT DUBAI SECTION */
+.reasons {
+    background-color: var(--white);
+    padding: 40px;
+}
+
+.reasons h2 {
+    text-align: center;
+    font-size: 30px;
+    color: var(--deep-ocean);
+    margin-bottom: 25px;
+}
+
+.reasons ul {
+    max-width: 850px;
+    margin: 0 auto;
+    padding-left: 25px;
+}
+
+.reasons li {
+    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    main {
+        padding: 12px;
+    }
+
+    .hero-banner img {
+        height: 260px;
+    }
+
+    .welcome {
+        padding: 35px 20px;
+    }
+
+    .welcome h2 {
+        font-size: 28px;
+    }
+
+    .reasons {
+        padding: 25px 15px;
+    }
+
+}
+/* EXPLORE PAGE IMAGES */
+.explore-image {
+    width: 100%;
+    max-width: 350px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+    margin: 15px auto;
+}
+/* ABOUT PAGE IMAGE */
+.about-image {
+    width: 100%;
+    max-width: 450px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    display: block;
+    margin: 20px auto;
 }
