@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <header>
+        <h1>SunnySide | Dubai</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="explore.html">Explore</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="gallery.html">Gallery</a>
+        </nav>
+    </header>
+    <main>
+    <h2>Contact Us</h2>
+
+    <form>
+    <label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
+    <label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+<label for="travel-date">Preferred Travel Date:</label>
+<input type="date" id="travel-date" name="travel-date">
+<label for="travelers">Number of Travelers:</label>
+<input type="number" id="travelers" name="travelers" min="1">
+<label for="inquiry">Inquiry Type:</label>
+
+<select id="inquiry" name="inquiry">
+    <option>General Information</option>
+    <option>Accommodation</option>
+    <option>Activities</option>
+    <option>Transportation</option>
+</select>
+<label for="message">Message:</label>
+
+<textarea id="message" name="message" rows="5" required></textarea>
+<button type="submit">Submit</button>
+    </form>
+    <p>
+    After submitting the form, our team will review your enquiry and
+    contact you through the email address provided.
+</p>
+
+</main>
+<footer>
+    <p>&copy; 2026 SunnySide | Dubai</p>
+</footer>
+</body>
+</html>
